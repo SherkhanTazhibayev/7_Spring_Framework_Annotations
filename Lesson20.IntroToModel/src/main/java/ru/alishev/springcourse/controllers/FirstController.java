@@ -30,7 +30,8 @@ public class FirstController {
     }
 
     @GetMapping("/calculator")
-    public String calculator(@RequestParam("a") int a, @RequestParam("b") int b,
+    public String calculator(@RequestParam("a") int a,
+                             @RequestParam("b") int b,
                              @RequestParam("action") String action, Model model) {
 
         double result;

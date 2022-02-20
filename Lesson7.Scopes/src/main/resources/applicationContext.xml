@@ -15,7 +15,10 @@
 
     <bean id="musicPlayer"
           class="ru.alishev.springcourse.MusicPlayer"
-          scope="prototype">
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="getClassicalMusic">
+
         <property name="music" ref="musicBean"/>
 
         <property name="name" value="${musicPlayer.name}"/>

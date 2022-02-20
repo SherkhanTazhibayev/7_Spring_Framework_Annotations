@@ -4,9 +4,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-/**
- * @author Neil Alishev
- */
 @Configuration
 @PropertySource("classpath:musicPlayer.properties")
 public class SpringConfig {

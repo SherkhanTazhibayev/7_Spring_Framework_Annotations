@@ -3,9 +3,6 @@ package ru.alishev.springcourse;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Neil Alishev
- */
 public class MusicPlayer {
     private List<Music> musicList = new ArrayList<>();
 
